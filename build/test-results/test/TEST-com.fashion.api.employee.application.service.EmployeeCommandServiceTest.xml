@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.fashion.api.employee.application.service.EmployeeCommandServiceTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2024-10-01T12:57:03" hostname="DESKTOP-PO0IN52" time="0.666">
+  <properties/>
+  <testcase name="JSON 파일 파싱 실패 시 예외 발생()" classname="com.fashion.api.employee.application.service.EmployeeCommandServiceTest" time="0.394"/>
+  <testcase name="JSON 파일로 직원 저장 성공()" classname="com.fashion.api.employee.application.service.EmployeeCommandServiceTest" time="0.224"/>
+  <testcase name="CSV 파일 파싱 실패 시 예외 발생()" classname="com.fashion.api.employee.application.service.EmployeeCommandServiceTest" time="0.003"/>
+  <testcase name="CSV 파일로 직원 저장 성공()" classname="com.fashion.api.employee.application.service.EmployeeCommandServiceTest" time="0.04"/>
+  <system-out><![CDATA[2024-10-01T21:57:03.621+09:00 ERROR 32416 --- [    Test worker] c.f.a.e.a.s.EmployeeCommandService       : Invalid UTF-8 start byte 0x9e
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 3]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
