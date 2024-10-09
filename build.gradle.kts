@@ -20,9 +20,6 @@ dependencies {
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
     annotationProcessor("org.springframework.boot:spring-boot-configuration-processor")
 
-    implementation("com.opencsv:opencsv:5.7.1")
-    implementation("com.fasterxml.jackson.datatype:jackson-datatype-jsr310")
-
     // Spring
     implementation("org.springframework.boot:spring-boot-starter")
     implementation("org.springframework.boot:spring-boot-starter-web")
@@ -35,6 +32,8 @@ dependencies {
 
     // Swagger
     implementation("org.springdoc:springdoc-openapi-starter-webmvc-ui:2.5.0")
+    implementation("org.springdoc:springdoc-openapi-ui:1.6.14")
+    //implementation("org.springframework.boot:spring-boot-starter-security")
 
     // Kotlin Logging
     implementation("io.github.microutils:kotlin-logging-jvm:3.0.5")

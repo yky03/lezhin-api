@@ -1,1 +1,1 @@
-rootProject.name = "clovirtual-fashion-api"
+rootProject.name = "lezhin-api"
